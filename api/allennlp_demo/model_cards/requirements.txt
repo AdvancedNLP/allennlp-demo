@@ -1,4 +1,4 @@
-allennlp @ git+https://github.com/allenai/allennlp.git
-allennlp-models @ git+https://github.com/allenai/allennlp-models.git
+allennlp==2.10.0
+allennlp-models==2.10.0
 Flask>=2.1.0
 pytest<7.0

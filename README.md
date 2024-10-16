@@ -12,6 +12,19 @@ application that demonstrates the capabilities of [AllenNLP](https://github.com/
 an open source library for NLP research.
 
 ## Getting Started
+≠
+Run everything for the ANLP demo 
+
+```bash
+./demo start  tasks transformer_qa roberta_sentiment_analysis model_cards bidaf glove_sentiment_analysis naqanet bidaf_elmo nmn_drop ui proxy
+```
+
+Demos:
+
+http://localhost:8080/sentiment-analysis/roberta-sentiment-analysis
+http://localhost:8080/textual-entailment
+http://localhost:8080/reading-comprehension/transformer-qa
+
 
 First, make sure you have [Docker](https://www.docker.com/) and [Python 3](https://www.python.org/) (3.7 or higher)
 installed. After that's complete, you can start things by running this command:
